@@ -1,0 +1,19 @@
+name: Treefarm
+author: anonym110
+main: viralgaming.anonym110.treefarm.Treefarm
+version: 1.2
+description: Replants and protects saplings + disallows all building inside the treefarm.
+commands:
+  treefarm:
+    description: Treefarm Plugin by anonym110
+    aliases: [tree]
+permissions:
+  treefarm.reload:
+    description: Reload your config
+    default: op
+  treefarm.build:
+    description: Build inside the treefarm
+    default: op
+  treefarm.destroy:
+    description: Destroy saplings in the treefarm
+    default: false
